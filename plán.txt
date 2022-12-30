@@ -1,0 +1,17 @@
+David -> 
+
+1).Zjistí kde leží figurka (střed spodní hrany bounding boxu). points[n] = [x,y]
+2).Cutne obrázek za pomocí ARU značek a zjistí trnasfomrační matici H1 
+
+Honza ->
+
+1).Vezme obrázek od davida a alligne ho s templatem políček a dostane tim matici H2
+
+
+Někdo ->
+
+1.) Veme body points a vynásobí H1*H2*points aby jsme si srovnali souřadnicový systémy
+2.) Najde nejbližší střed políčka z množiny políček P,B,R,G,Y od points[n] a přidá body podle toho jestli je nejbližší střed P,B,R,G,Y a podle toho jaká figurka koresponduje points[n]
+
+
+hotovo
