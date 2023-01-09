@@ -19,7 +19,7 @@ def align_images(img0,img1):
     warped = cv.warpPerspective(img0, H, (w, h), borderMode=cv.BORDER_CONSTANT, borderValue=(0, 0, 0, 0))
     #cv.imshow("IMAGE",img0)
     #cv.waitKey(0)
-    #cv.imshow("IMAGE",warped) #warped is now matching the image from main.py
+    #cv.imshow("IMAGE",warped) #warped is now matching the image from align_fields.py
     #cv.waitKey(0)
 
     output = np.zeros((h, w, 3), np.uint8)
